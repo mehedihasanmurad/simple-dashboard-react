@@ -15,28 +15,28 @@ const SideBar = () => {
                 <LiaCreativeCommonsShare className='text-3xl bg-green-600 text-white p-1 rounded-full'></LiaCreativeCommonsShare>
                 <h1 className='font-bold font-mono text-xl'>PORTAL</h1>
             </div>
-            <div className='space-y-3 mb-10'>
-                <div className='flex items-center gap-4 hover:underline'>
+            <div className='space-y-3 mb-10 '>
+                <div className='flex items-center gap-4 hover:underline hover:bg-green-300 p-3 rounded-lg'>
                     <BiHomeSmile className='text-2xl'></BiHomeSmile>
                     <h1 className='text-lg text-gray-500 font-mono'>Home</h1>
                 </div>
-                <div className='flex items-center gap-4 hover:underline'>
+                <div className='flex items-center gap-4 hover:underline hover:bg-green-300 p-3 rounded-lg'>
                     <FaRegFolder className='text-2xl'></FaRegFolder>
                     <h1 className='text-lg text-gray-500 font-mono'>Docs</h1>
                 </div>
-                <div className='flex items-center gap-4 hover:underline'>
+                <div className='flex items-center gap-4 hover:underline hover:bg-green-300 p-3 rounded-lg'>
                     <IoDocumentOutline className='text-2xl'></IoDocumentOutline>
                     <h1 className='text-lg text-gray-500 font-mono'>Pages</h1>
                 </div>
-                <div className='flex items-center gap-4 hover:underline'>
+                <div className='flex items-center gap-4 hover:underline hover:bg-green-300 p-3 rounded-lg'>
                     <FiBarChart className='text-2xl'></FiBarChart>
                     <h1 className='text-lg text-gray-500 font-mono'>Charts</h1>
                 </div>
-                <div className='flex items-center gap-4 hover:underline'>
+                <div className='flex items-center gap-4 hover:underline hover:bg-green-300 p-3 rounded-lg'>
                     <IoMdNotificationsOutline className='text-2xl'></IoMdNotificationsOutline>
                     <h1 className='text-lg text-gray-500 font-mono'>Notification</h1>
                 </div>
-                <div className='flex items-center gap-4 hover:underline'>
+                <div className='flex items-center gap-4 hover:underline hover:bg-green-300 p-3 rounded-lg'>
                     <IoIosHelpCircleOutline className='text-2xl'></IoIosHelpCircleOutline>
                     <h1 className='text-lg text-gray-500 font-mono'>Helps</h1>
                 </div>

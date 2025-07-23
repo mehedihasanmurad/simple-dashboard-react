@@ -4,13 +4,12 @@ import BarCharts from '../BarCharts/BarCharts';
 
 const Chart = () => {
     return (
-        <div>
-            <h1>Hello chart how are you</h1>
+        <div className='my-10'>
             <div className='flex gap-4'>
-                <div className='w-[49%] border'>
+                <div className='w-[49%] border border-slate-200 rounded-lg shadow-xl'>
                     <LineCharts></LineCharts>
                 </div>
-                <div className='w-[49%] border'>
+                <div className='w-[49%] border border-slate-200 rounded-lg shadow-xl'>
                     <BarCharts></BarCharts>
                 </div>
             </div>
