@@ -3,6 +3,8 @@ import { IoMenu } from 'react-icons/io5';
 import { CiSearch } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
 import Link from '../Link/Link';
+import PriceOptions from '../PriceOptions/PriceOptions';
+import Chart from '../Chart/Chart';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -36,6 +38,10 @@ const Navbar = () => {
                     
                 </div>
             </ul>
+            <div>
+                <PriceOptions></PriceOptions>
+                <Chart></Chart>
+            </div>
         </div>
     );
 };
