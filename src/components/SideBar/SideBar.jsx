@@ -16,27 +16,27 @@ const SideBar = () => {
                 <h1 className='font-bold font-mono text-xl'>PORTAL</h1>
             </div>
             <div className='space-y-3 mb-10'>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 hover:underline'>
                     <BiHomeSmile className='text-2xl'></BiHomeSmile>
                     <h1 className='text-lg text-gray-500 font-mono'>Home</h1>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 hover:underline'>
                     <FaRegFolder className='text-2xl'></FaRegFolder>
                     <h1 className='text-lg text-gray-500 font-mono'>Docs</h1>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 hover:underline'>
                     <IoDocumentOutline className='text-2xl'></IoDocumentOutline>
                     <h1 className='text-lg text-gray-500 font-mono'>Pages</h1>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 hover:underline'>
                     <FiBarChart className='text-2xl'></FiBarChart>
                     <h1 className='text-lg text-gray-500 font-mono'>Charts</h1>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 hover:underline'>
                     <IoMdNotificationsOutline className='text-2xl'></IoMdNotificationsOutline>
                     <h1 className='text-lg text-gray-500 font-mono'>Notification</h1>
                 </div>
-                <div className='flex items-center gap-4'>
+                <div className='flex items-center gap-4 hover:underline'>
                     <IoIosHelpCircleOutline className='text-2xl'></IoIosHelpCircleOutline>
                     <h1 className='text-lg text-gray-500 font-mono'>Helps</h1>
                 </div>
